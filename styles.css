@@ -1,7 +1,18 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url(/src/comfortaa.ttf);
+}
+
+*{
+        color: white;
+        font-family: Comfortaa, monospace;
+}
 .titleForPage{
-    background-color: rgb(10, 0, 36);
-    color: white;
+    background-color: rgb(56, 56, 56);
     text-align: center;
+}
+html{
+    background-color: rgb(26, 26, 26);
 }
 h1{
     text-align: center;
@@ -10,20 +21,20 @@ div{
     text-align: center;
 }
 .titleForPart{
-    background-color: black;
-    color: white;
+    background-color: rgb(34, 34, 34);
     text-align: center;
 }
 h2{
-    color: white;
     text-align: center;
 }
-table{
+.table_O_K{
     text-align: center;
-    margin-left: 500px;
+    background-color: rgb(23, 23, 23);
 }
 footer{
     text-align: center;
+}
+a{
 }
 address{
     text-align: center;
