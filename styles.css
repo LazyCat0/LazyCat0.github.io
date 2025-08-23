@@ -1,8 +1,30 @@
-h1{
+.titleForPage{
     background-color: rgb(10, 0, 36);
     color: white;
+    text-align: center;
 }
-h2{
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+.titleForPart{
     background-color: black;
     color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin-left: 500px;
+}
+footer{
+    text-align: center;
+}
+address{
+    text-align: center;
 }
