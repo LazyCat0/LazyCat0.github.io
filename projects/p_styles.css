@@ -11,13 +11,14 @@
     background-color: rgb(56, 56, 56);
     text-align: center;
 }
+div{
+    font-size: large;
+    text-align: center;
+}
 html{
     background-color: rgb(26, 26, 26);
 }
 h1{
-    text-align: center;
-}
-div{
     text-align: center;
 }
 .titleForPart{

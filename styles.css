@@ -7,7 +7,9 @@
         color: white;
         font-family: Comfortaa;
 }
-#boldComf
+.boldComf{
+    font-weight: 900;
+}
 .titleForPage{
     background-color: rgb(56, 56, 56);
     text-align: center;
@@ -41,7 +43,8 @@ button{
 address{
     text-align: center;
 }
-#nexusButton{
+#betterButton{
     width: 200px;
     height: 50px;
+    font-size:x-large ;
 }
