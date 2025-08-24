@@ -5,7 +5,7 @@
 
 *{
         color: white;
-        font-family: Comfortaa, monospace;
+        font-family: Comfortaa;
 }
 .titleForPage{
     background-color: rgb(56, 56, 56);
@@ -34,7 +34,8 @@ h2{
 footer{
     text-align: center;
 }
-a{
+button{
+    background-color: rgb(30, 30, 30);
 }
 address{
     text-align: center;
