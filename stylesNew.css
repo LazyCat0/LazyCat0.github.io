@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url(/src/comfortaa.ttf);
+}
+
+*{
+        font-family: Comfortaa;
+        color: black;
+}
+
+#layer1{
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 750px;
+    height: 540px;
+    margin-top: -460px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+#layer2{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 440px;
+    margin-top: -520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html{
+    background: linear-gradient(right, rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255));
+    background: -o-linear-gradient(right, rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255));
+    background: -moz-linear-gradient(right, rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255));
+    background: -webkit-linear-gradient(right, rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255));
+    background-size: 1396px, 4096px;
+}
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgba(139, 139, 139, 0.459);
+    color: black;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}

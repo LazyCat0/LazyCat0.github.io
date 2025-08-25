@@ -33,7 +33,7 @@
 }
 html{
     background: linear-gradient(40deg ,rgb(26, 26, 26), violet);
-    background-size: 2048px 2048px;
+    background-size: 2048px 1024px;
     background-repeat: no-repeat;
     background-attachment: local;
     
