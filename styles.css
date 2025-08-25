@@ -5,6 +5,7 @@
 
 *{
         font-family: Comfortaa;
+        --background-color:  rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255);
 }
 .boldComf{
     font-weight: 900;
@@ -32,18 +33,19 @@
     border-radius: 5px;
 }
 html{
-    background: linear-gradient(40deg ,rgb(26, 26, 26), violet);
-    background-size: 2048px 1024px;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    
+    background: linear-gradient(right, var(--background-color));
+    background: -o-linear-gradient(right, var(--background-color));
+    background: -moz-linear-gradient(right, var(--background-color));
+    background: -webkit-linear-gradient(right, var(--background-color));
+    background-size: 1396px, 4096px;
 }
 h1{
     text-align: center;
 }
 div{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: large;
 }
 h2{
     text-align: center;
@@ -53,7 +55,7 @@ button{
     border-radius: 10px;
     border-style: solid;
     border-color: rgba(61, 61, 61, 0.199);
-    background-color: rgba(255, 255, 255, 0.192);
+    background-color: rgba(139, 139, 139, 0.767);
     color: white;
     outline-color: white;
     outline-width: 1px;
@@ -63,7 +65,8 @@ button{
 }
 .table_O_K{
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.212);
+    color: white;
+    background-color: rgba(148, 148, 148, 0.637);
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -72,7 +75,7 @@ button{
     border: 2px;
     border-radius: 4px;
     border-style: solid;
-    border-color: rgba(202, 202, 202, 0.315);
+    border-color: rgba(202, 202, 202, 0.486);
 }
 footer{
     text-align: center;
@@ -92,5 +95,5 @@ address{
     width: 200px;
     height: 50px;
     font-size:x-large ;
-    color: white;
+    color: rgb(0, 0, 0);
 }
