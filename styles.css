@@ -12,12 +12,13 @@
 .titleForPage{
     background-color: rgba(255, 255, 255, 0.678);
     color: black;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
     border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
 }
 .titleForPart{
     background-color: rgba(255, 255, 255, 0.24);
@@ -25,12 +26,17 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
     border-radius: 30px;
 }
 html{
     background: linear-gradient(40deg ,rgb(26, 26, 26), violet);
+    background-size: 2048px 2048px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    
 }
 h1{
     text-align: center;
@@ -49,12 +55,18 @@ button{
     border-color: rgba(61, 61, 61, 0.199);
     background-color: rgba(255, 255, 255, 0.192);
     color: white;
+    outline-color: white;
+    outline-width: 1px;
+    outline-offset: 1px;
+    outline-style: outset;
+    width: 80px;
 }
 .table_O_K{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.212);
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
     margin-top: 5px;
     margin-bottom: 5px;
     border: 2px;
@@ -64,6 +76,14 @@ button{
 }
 footer{
     text-align: center;
+    border-top: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    clear: both;
 }
 address{
     text-align: center;
