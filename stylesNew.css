@@ -7,7 +7,6 @@
         font-family: Comfortaa;
         color: black;
         --background-color:  rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255);
-        overflow: auto;
 }
 html{
     background: linear-gradient(right, var(--background-color));
@@ -16,15 +15,67 @@ html{
     background: -webkit-linear-gradient(right, var(--background-color));
     background-size: 1396px, 4096px;
 }
+div{
+    text-align: center;
+    font-size: large;
+}
+button{
+    background-color: white;
+    color: black;
+    border: 1px;
+    border-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+}
+address{
+    text-align: center;
+}
+#navbuttons{
+    margin-top: -20px;
+}
+#navlayer{
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 680px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-content: center;
+}
 #layer1{
-    background-color: rgba(255, 255, 255, 0.24);
-    width: 625;
-    height: 395;
-    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 700px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 #layer2{
-    display: block;
     background-color: rgb(255, 255, 255);
-    width: 585;
-    height: 318;
+    width: 680px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.titleForPage{
+    width: auto;
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.titleForPart{
+    width: 300px;
+    background-color: rgba(184, 184, 184, 0.322);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
 }
