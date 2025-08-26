@@ -20,19 +20,24 @@ div{
     font-size: large;
 }
 button{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
-    border: 1px;
+    border: 2px ;
     border-color: rgb(206, 206, 206);
     border-radius: 10px;
+    border-style: solid;
     width: 120px;
     height: 50px;
+    z-index: 5;
+    position: relative;
 }
 address{
     text-align: center;
 }
 #navbuttons{
     margin-top: -20px;
+    position: relative;
+    z-index: 2;
 }
 #navlayer{
     background-color: rgba(255, 255, 255, 0.644);
@@ -44,6 +49,8 @@ address{
     border-radius: 15px;
     margin-top: 20px;
     align-content: center;
+    z-index: 1;
+    position: relative;
 }
 #layer1{
     background-color: rgba(255, 255, 255, 0.644);
@@ -54,6 +61,7 @@ address{
     text-align: center;
     border-radius: 15px;
     margin-top: 20px;
+    z-index: 1;
 }
 #layer2{
     background-color: rgb(255, 255, 255);
@@ -63,6 +71,15 @@ address{
     margin-right: auto;
     margin-top: 30px;
     border-radius: 10px;
+    z-index: 2;
+    overflow-y: auto;
+}
+#langbutton{
+    width: 120px;
+    height: 20px;
+}
+#purpletext{
+    color: purple;
 }
 .titleForPage{
     width: auto;
@@ -70,19 +87,21 @@ address{
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    z-index: 3;
 }
 .titleForPart{
-    width: 300px;
-    background-color: rgba(184, 184, 184, 0.322);
+    width: 500px;
+    background-color: rgb(229, 241, 255);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 10px;
+    z-index: 3;
 }
 .table_O_K{
     text-align: center;
     color: rgb(0, 0, 0);
-    background-color: rgba(148, 148, 148, 0.637);
+    background-color: rgb(241, 241, 241);
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -91,5 +110,6 @@ address{
     border: 2px;
     border-radius: 4px;
     border-style: solid;
-    border-color: rgba(202, 202, 202, 0.486);
+    border-color: rgba(226, 226, 226, 0.705);
+    z-index: 3;
 }

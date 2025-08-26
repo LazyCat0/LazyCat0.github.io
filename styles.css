@@ -5,32 +5,8 @@
 
 *{
         font-family: Comfortaa;
+        color: black;
         --background-color:  rgb(125, 115, 255), rgb(118, 214, 255), rgb(116, 165, 255);
-}
-.boldComf{
-    font-weight: 900;
-}
-.titleForPage{
-    background-color: rgba(255, 255, 255, 0.678);
-    color: black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    text-align: center;
-}
-.titleForPart{
-    background-color: rgba(255, 255, 255, 0.24);
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-    border-radius: 5px;
 }
 html{
     background: linear-gradient(right, var(--background-color));
@@ -39,34 +15,93 @@ html{
     background: -webkit-linear-gradient(right, var(--background-color));
     background-size: 1396px, 4096px;
 }
-h1{
-    text-align: center;
-}
 div{
     text-align: center;
-    color: rgb(0, 0, 0);
     font-size: large;
 }
-h2{
-    text-align: center;
-}
 button{
-    border: 2px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px ;
+    border-color: rgb(206, 206, 206);
     border-radius: 10px;
     border-style: solid;
-    border-color: rgba(61, 61, 61, 0.199);
-    background-color: rgba(139, 139, 139, 0.767);
-    color: white;
-    outline-color: white;
-    outline-width: 1px;
-    outline-offset: 1px;
-    outline-style: outset;
-    width: 80px;
+    width: 120px;
+    height: 50px;
+    z-index: 5;
+    position: relative;
+}
+address{
+    text-align: center;
+}
+#navbuttons{
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+}
+#navlayer{
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 680px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-content: center;
+    z-index: 1;
+    position: relative;
+}
+#layer1{
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 700px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    z-index: 1;
+}
+#layer2{
+    background-color: rgb(255, 255, 255);
+    width: 680px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    z-index: 2;
+    overflow-y: auto;
+}
+#langbutton{
+    width: 120px;
+    height: 20px;
+}
+#purpletext{
+    color: purple;
+}
+.titleForPage{
+    width: auto;
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    z-index: 3;
+}
+.titleForPart{
+    width: 300px;
+    background-color: rgb(229, 241, 255);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 3;
 }
 .table_O_K{
     text-align: center;
-    color: white;
-    background-color: rgba(148, 148, 148, 0.637);
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -75,25 +110,6 @@ button{
     border: 2px;
     border-radius: 4px;
     border-style: solid;
-    border-color: rgba(202, 202, 202, 0.486);
-}
-footer{
-    text-align: center;
-    border-top: 2px solid;
-    border-color: white;
-    border-radius: 10px;
-    margin-top: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-    clear: both;
-}
-address{
-    text-align: center;
-}
-#betterButton{
-    width: 200px;
-    height: 50px;
-    font-size:x-large ;
-    color: rgb(0, 0, 0);
+    border-color: rgba(226, 226, 226, 0.705);
+    z-index: 3;
 }
