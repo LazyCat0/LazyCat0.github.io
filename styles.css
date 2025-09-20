@@ -1,0 +1,94 @@
+:root{
+    --bg-col1: #6980F5;
+    --bg-col2: #B52BD0;
+    --white-theme-pg-nav: #ffffff40;
+    --white-theme-bg: #ffffff50;
+    --white-theme-pt-title: #ffffff20;
+    --white-theme-content: #fff;
+    --wh1: #ffffff55;
+    font-family: 'AlegSeriy';
+}
+body{
+    background-image: linear-gradient(left, var(--bg-col1), var(--bg-col2));
+    background-image: -o-linear-gradient(left, var(--bg-col1), var(--bg-col2));
+    background-image: -moz-linear-gradient(left, var(--bg-col1), var(--bg-col2));
+    background-image: -webkit-linear-gradient(left, var(--bg-col1), var(--bg-col2));
+}
+.content{
+    margin-top: 5x;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+    width: 900px;
+    height: 500px;
+    background-color: #fff;
+
+    scrollbar-color: #fff;
+    overflow-y: auto;
+}
+#navigation{
+    background-color: #fff;
+    float: left;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+}
+#navbutton{
+    background-color: #ebebeb;
+    border-color: #ffffff00;
+    float: left;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 250ms;
+}
+#navbutton:hover{
+    background-color: #e2e2e2;
+    border-color: #0000000e;
+    float: left;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+.Title{
+    background-color: white;
+    border-radius: 10px;
+    border-color: #ffffff00;
+    width: 900px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    scrollbar-color: #fff;
+    overflow-y: auto;
+}
+p{
+    color: black;
+}
+h1{
+    color: black;
+}
+div{
+    color: black;
+}
+tab{
+    color: #ffffff00;
+}
+table{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
