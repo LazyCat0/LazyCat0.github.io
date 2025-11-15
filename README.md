@@ -1,5 +1,15 @@
-# Hello! I'm LazyCat0 and I'm a Junior developer.
-At this moment I know Java, Kotlin, C# and Python.
+# ✌ Hello! I'm LazyCat0!
+And here - my portfolio
 
-# Lower you can find my projects and repo's that's I hard working :)
-[LazyChat - MC PLUGIN](https://github.com/LazyCat0/LazyChat-MC-plugin), [LazyMCLaucnher](https://github.com/LazyCat0/LazyMCLauncher-CLI)
+
+
+## 🥂 About Me
+I'm just junior developer that can write on Java, Kotlin, Python and C#
+## 🔗 My projects that I hard work
+[LazyMCLaucnher](https://github.com/LazyCat0/LazyMCLauncher-CLI) and [LazyChat - Minecraft Paper plugin](https://github.com/LazyCat0/LazyChat-MC-plugin)
+
+
+
+## 🤔 Which licence I prefer to use?..
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0-standalone.html)
