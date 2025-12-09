@@ -1,0 +1,70 @@
+:root {
+    --bg-col-1: #790000;
+    --bg-col-2: #DE2956;
+}
+html {
+    height: 100%;
+    background-size: cover;
+    background: linear-gradient(to top, #790000, #DE2956);
+    background-attachment: fixed;
+}
+header {
+    display: flex;
+    background-color: #33333340;
+    width: 85%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.header_button {
+    display: inline-block;
+    background-color: #33333360;
+    color: white;
+    width: auto;
+    height: 90%;
+    align-self: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: auto;
+    margin-right: right;
+    border-color: #00000000;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.header_buttons_margin{
+    margin-left: 70%;
+}
+.header_margin{
+    margin-top: -0.4%;
+}
+.site_title{
+    display: inline-block;
+    background-color: #ffffff0c;
+    color: white;
+    width: 200px;
+    height: 100%;
+    align-content: center;
+    font-size: x-large;
+    text-align: center;
+    margin-top: auto;
+}
+
+.body_container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #33333340;
+    width: 82.5%;
+    height: 700px;
+    border-radius: 20px;
+}
+
+.body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
