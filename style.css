@@ -23,11 +23,11 @@ header {
     display: inline-block;
     background-color: #33333360;
     color: white;
-    width: auto;
+    width: fit-content;
     height: 90%;
     align-self: auto;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: auto;
     margin-right: right;
     border-color: #00000000;
@@ -35,7 +35,7 @@ header {
     margin-top: 2px;
 }
 .header_buttons_margin{
-    margin-left: 70%;
+    margin-left: 73%;
 }
 .header_margin{
     margin-top: -0.4%;
