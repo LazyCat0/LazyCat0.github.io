@@ -1,12 +1,17 @@
 :root {
     --bg-col-1: #790000;
     --bg-col-2: #DE2956;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
 }
 html {
     height: 100%;
     background-size: cover;
     background: linear-gradient(to top, #790000, #DE2956);
     background-attachment: fixed;
+}
+a{
+    color: white;
 }
 header {
     display: flex;
@@ -19,10 +24,24 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+footer{
+    background-color: #33333340;
+    width: 45%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    align-content: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tg_icon{
+    margin-bottom: -2px;
+}
 .header_button {
     display: inline-block;
     background-color: #33333360;
-    color: white;
     width: fit-content;
     height: 90%;
     align-self: auto;
@@ -30,9 +49,11 @@ header {
     margin-right: 5%;
     margin-top: auto;
     margin-right: right;
+    color: white;
     border-color: #00000000;
     border-radius: 10px;
     margin-top: 2px;
+    font-family: 'Comfortaa', sans-serif;
 }
 .header_buttons_margin{
     margin-left: 73%;
@@ -43,7 +64,6 @@ header {
 .site_title{
     display: inline-block;
     background-color: #ffffff0c;
-    color: white;
     width: 200px;
     height: 100%;
     align-content: center;
@@ -59,12 +79,48 @@ header {
     width: 82.5%;
     height: 700px;
     border-radius: 20px;
-}
-
-.body{
-    margin-left: auto;
-    margin-right: auto;
     margin-top: auto;
     text-align: center;
+}
+
+.projects_element_l{
+    margin-top: 40px;
+    margin-left: 25%;
+    position:relative;
+    align-self: flex-end;
+    width: 250px;
+    height: auto;
+    background-color: #33333327;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: outset;
+    border-color: rgb(184, 32, 125);
+    border-width: 3px;
+    float: left;
+}
+.projects_element_r{
+    margin-top: 40px;
+    margin-right: 25%;
+    position:relative;
+    align-self: flex-end;
+    width: 250px;
+    height: auto;
+    background-color: #33333327;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: outset;
+    border-color: rgb(184, 32, 125);
+    border-width: 3px;
+    float: right;
+}
+.project_button{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.336);
     color: white;
+    border-style: none;
+    font-family: 'Comfortaa', sans-serif;
 }
