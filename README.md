@@ -1,6 +1,8 @@
 # ✌ Hello! I'm LazyCat0!
 And here - my portfolio
 
+## 🌐 My own site
+[Here is it!](https://lazycat0.github.io/lazycat0/index.html)
 
 
 ## 🥂 About Me
